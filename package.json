@@ -1,0 +1,28 @@
+{
+  "name": "novatech-web",
+  "version": "1.0.0",
+  "description": "Sitio web est\u00e1tico de NovaTech, agencia digital ficticia. HTML, CSS y JS vanilla.",
+  "private": true,
+  "scripts": {
+    "dev": "http-server . -p 8080 -c-1 --cors",
+    "start": "http-server . -p 8080 -c-1",
+    "format": "prettier --write \"*.html\" \"*.css\" \"*.js\" \"*.md\"",
+    "format:check": "prettier --check \"*.html\" \"*.css\" \"*.js\" \"*.md\""
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.2.5"
+  },
+  "keywords": [
+    "landing",
+    "agency",
+    "static-site",
+    "i18n",
+    "pwa"
+  ],
+  "author": "NovaTech",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
